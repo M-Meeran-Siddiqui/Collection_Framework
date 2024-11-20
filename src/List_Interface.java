@@ -239,3 +239,12 @@ list.replaceAll(String::toUpperCase); // Converts strings to uppercase
         System.out.println(li.subList(5  , 7));
     }
 }
+
+
+/*Summary For Above--->
+(1)Both List<Integer> li = new ArrayList<>(); and ArrayList<Integer> li2 = new ArrayList<>(); can perform the same tasks since ArrayList implements List.
+
+(2)Use List<Integer> li = new ArrayList<>(); for flexibility if you may switch to a different List implementation later.
+
+(3)Use ArrayList<Integer> li2 = new ArrayList<>(); only if you need ArrayList-specific features, though this is rare.
+*/
